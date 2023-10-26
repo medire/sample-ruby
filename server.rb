@@ -18,6 +18,6 @@ get '/' do
   Cowsay.say(message, "random")
 end
 
-get '/teste/' do
+get '/teste' do
   "Hello World!"
 end
